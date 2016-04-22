@@ -1,0 +1,3 @@
+Si ha llegado a este módulo significa 
+que una estudiante ha seleccionado su compañía.
+Modulo en desarrollo...

@@ -1,0 +1,267 @@
+body{
+   background-color: #eceff1; // Blue Grey 50
+   font-family: 'Roboto', sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 300;
+	color: #fff;
+	letter-spacing: -0.05em;
+	font-size: 3rem;
+	margin: 3rem 0;
+}
+
+.signin-card img{
+	width: 200px;
+	height: auto;
+}
+.signin-card {
+  -webkit-animation: cardEnter 0.75s ease-in-out 0.5s;
+  animation: cardEnter 0.75s ease-in-out 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+/* -- login  ------------------------------ */
+.signin-card {
+  max-width: 350px;
+  border-radius: 2px;
+  margin: 20px auto;
+  padding: 20px;   
+  background-color: #eceff1; // Blue Grey 50
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
+  0 6px 6px rgba(0, 0, 0, .23); // shadow depth 3
+}
+
+.signin-card { 
+     text-align: center;
+}
+.logo-image, h1 {
+    text-align: center;
+  } 
+/* -- font styles ------------------------------------- */
+.display1 {
+  font-size: 28px;
+  font-weight: 100;
+  line-height: 1.2;
+  color: #757575;
+  text-transform: inherit;
+  letter-spacing: inherit;
+}
+
+.subhead {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.1;
+  color: #212121;
+  text-transform: inherit;
+  letter-spacing: inherit;
+}
+
+/* card animation from Animate.css -------------------- */
+@-webkit-keyframes cardEnter {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    -ms-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    -ms-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    -ms-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    -ms-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    -ms-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+@keyframes cardEnter {
+  0%, 20%, 40%, 60%, 80%, 100% {
+    -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    -ms-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    -ms-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    -ms-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    -ms-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    -ms-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    -ms-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+
+.usericon{
+margin: 10px 0 0 20px;
+ width: 40px; 
+ height: 40px; 
+ border-radius: 20px; 
+ -webkit-border-radius: 20px; 
+ -moz-border-radius: 20px; 
+}
+
+.contenedor{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	height:600px;
+}
+
+.contenedor a{
+	color: #FFFFFF;
+}
+
+.buscar { 
+  border-radius: 50%; 
+  width: 300px;
+  height: 300px;
+  border: none;
+  color: white;
+  font-weight: 900;
+
+  font-size: 2.5rem;
+  transition: .4s all ease-in;
+  outline: none; 
+  cursor: pointer;
+  text-align: center;
+  -webkit-user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+
+.buscar span { 
+	position: relative; 
+}
+/* fix for IE 11 (and IE8+, although the earlier versions are harder to address) stupidly moving the inner button text on click */
+
+
+/*----------------confirmacion stylo*/
+.confirm-card {
+  -webkit-animation: cardEnter 0.75s ease-in-out 0.5s;
+  animation: cardEnter 0.75s ease-in-out 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.confirm-card {
+  max-width: 450px;
+  border-radius: 2px;
+  margin: 20px auto;
+  padding: 20px;   
+  background-color: #eceff1; // Blue Grey 50
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
+  0 6px 6px rgba(0, 0, 0, .23); // shadow depth 3
+}
+
+
+/*----------------opciones stylo*/
+.opciones-card {
+  -webkit-animation: cardEnter 0.75s ease-in-out 0.5s;
+  animation: cardEnter 0.75s ease-in-out 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.opciones-card {
+  max-width: 450px;
+  border-radius: 2px;
+  margin: 20px auto;
+  padding: 20px;   
+  background-color: #eceff1; // Blue Grey 50
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
+  0 6px 6px rgba(0, 0, 0, .23); // shadow depth 3
+}
+
+.opciones-card h5{
+  color: black;
+}
+.opciones-card img{
+  width: 25%;
+}
+
+
+/*----------------espera stylo*/
+.espera-card {
+  -webkit-animation: cardEnter 0.75s ease-in-out 0.5s;
+  animation: cardEnter 0.75s ease-in-out 0.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.espera-card {
+  max-width: 350px;
+  border-radius: 2px;
+  margin: 20px auto;
+  padding: 20px;   
+  background-color: #eceff1; // Blue Grey 50
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .19),
+  0 6px 6px rgba(0, 0, 0, .23); // shadow depth 3
+}
+
+.espera-card h5{
+  color: black;
+}
+.espera-card span{
+  font-size: 2em;
+}
+.espera-card img{
+  max-width: 200px;
+
+}
